@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGT.Portal", "TGT.Portal\TGT.Portal.csproj", "{53F76AE5-5397-4161-90B0-A401D7CB7310}"
+	ProjectSection(ProjectDependencies) = postProject
+		{626C6AB6-6319-496C-A9DC-4C5E82154FBF} = {626C6AB6-6319-496C-A9DC-4C5E82154FBF}
+		{D067696F-8E9A-4089-9566-F4B1B6DF9C44} = {D067696F-8E9A-4089-9566-F4B1B6DF9C44}
+		{F14BCFF4-2612-4DFB-B363-603EBC4F0AC5} = {F14BCFF4-2612-4DFB-B363-603EBC4F0AC5}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Domain", "..\TooGoodToRepo\Core.Domain\Core.Domain.csproj", "{D067696F-8E9A-4089-9566-F4B1B6DF9C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGT.Infrastructure.EF", "TGT.Infrastructure.EF\TGT.Infrastructure.EF.csproj", "{626C6AB6-6319-496C-A9DC-4C5E82154FBF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D067696F-8E9A-4089-9566-F4B1B6DF9C44} = {D067696F-8E9A-4089-9566-F4B1B6DF9C44}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGT.WebAPI", "TGT.WebAPI\TGT.WebAPI.csproj", "{5824F867-2B29-41BA-8E19-AF1CF4776CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGT.DomainService", "TGT.DomainService\TGT.DomainService.csproj", "{F14BCFF4-2612-4DFB-B363-603EBC4F0AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F76AE5-5397-4161-90B0-A401D7CB7310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F76AE5-5397-4161-90B0-A401D7CB7310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F76AE5-5397-4161-90B0-A401D7CB7310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F76AE5-5397-4161-90B0-A401D7CB7310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D067696F-8E9A-4089-9566-F4B1B6DF9C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D067696F-8E9A-4089-9566-F4B1B6DF9C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D067696F-8E9A-4089-9566-F4B1B6DF9C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D067696F-8E9A-4089-9566-F4B1B6DF9C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626C6AB6-6319-496C-A9DC-4C5E82154FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626C6AB6-6319-496C-A9DC-4C5E82154FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626C6AB6-6319-496C-A9DC-4C5E82154FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626C6AB6-6319-496C-A9DC-4C5E82154FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5824F867-2B29-41BA-8E19-AF1CF4776CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5824F867-2B29-41BA-8E19-AF1CF4776CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5824F867-2B29-41BA-8E19-AF1CF4776CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5824F867-2B29-41BA-8E19-AF1CF4776CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14BCFF4-2612-4DFB-B363-603EBC4F0AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14BCFF4-2612-4DFB-B363-603EBC4F0AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14BCFF4-2612-4DFB-B363-603EBC4F0AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14BCFF4-2612-4DFB-B363-603EBC4F0AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AA4962C-49A1-4E96-B5A9-0D2108AD9534}
+	EndGlobalSection
+EndGlobal

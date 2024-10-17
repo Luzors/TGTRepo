@@ -1,0 +1,6 @@
+@TGT.WebAPI_HostAddress = http://localhost:5062
+
+GET {{TGT.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
